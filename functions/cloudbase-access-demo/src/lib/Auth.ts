@@ -1,6 +1,6 @@
 import { HttpResult, Authority } from "@hbrwang/cloudbase-access";
 import linq = require("linq");
-import global from "./global";
+import global from "./Global";
 
 export default class Auth extends Authority {
   async do(): Promise<HttpResult | null> {

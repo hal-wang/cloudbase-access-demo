@@ -1,5 +1,5 @@
 import { Action, HttpResult } from "@hbrwang/cloudbase-access";
-import global from "../../global";
+import global from "../../lib/Global";
 import linq = require("linq");
 
 export default class extends Action {

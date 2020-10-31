@@ -1,5 +1,5 @@
 import { Router } from "@hbrwang/cloudbase-access";
-import Auth from "./Auth";
+import Auth from "./lib/Auth";
 
 export const main = async (event: any) => {
   console.log("event", event);
