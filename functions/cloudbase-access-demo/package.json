@@ -1,6 +1,6 @@
 {
   "name": "cloudbase-access-demo",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "<a href=\"https://github.com/TencentCloudBase/cloudbase-templates\"><img src=\"https://main.qcloudimg.com/raw/7b50431d8cef29d9ebb82c4ff2e6032c.png\"></a>",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@cloudbase/node-sdk": "^2.3.5",
-    "@hbrwang/cloudbase-access": "^0.5.15",
+    "@hbrwang/cloudbase-access": "^0.5.19",
     "linq": "^3.2.3"
   }
 }
