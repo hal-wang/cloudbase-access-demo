@@ -1,12 +1,12 @@
-import { Action, HttpResult, RequestParams } from "@hbrwang/cloudbase-access";
+import { Action, HttpResult } from "@hbrwang/cloudbase-access";
 
-export default class GetList extends Action {
+/**login 权限验证 */
+export default class extends Action {
   constructor() {
     super(["login"]);
   }
 
   async do(): Promise<HttpResult> {
-    if (!this.requestParams) return this.badRequest();
     const { account } = this.requestParams.headers;
 
     return this.ok([
