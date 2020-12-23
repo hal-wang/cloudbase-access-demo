@@ -3,3 +3,5 @@
 
 /controllers
 /lib
+
+package-lock.json

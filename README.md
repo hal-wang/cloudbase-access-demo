@@ -1,4 +1,4 @@
-_此示例已整合至 `cloudbase-access` 源码，需要的请请移步 <https://github.com/hbrwang/cloudbase-access>_
+_此示例已整合至 `cloudbase-access` 源码，需要的请请移步 <https://github.com/hal-wang/cloudbase-access>_
 
 ## cloudbase-access demo
 

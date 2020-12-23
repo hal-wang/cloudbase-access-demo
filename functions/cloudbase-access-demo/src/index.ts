@@ -1,11 +1,14 @@
-import { HttpResult, Router } from "@hbrwang/cloudbase-access";
+import { HttpResult, Router } from "@hal-wang/cloudbase-access";
 import Auth from "./lib/Auth";
 
-export const main = async (event: any) => {
+export const main = async (
+  event: Record<string, unknown>,
+  context: Record<string, unknown>
+) => {
   console.log("event", event);
   setHeaders();
 
-  const router = new Router(event, new Auth());
+  const router = new Router(event, context, new Auth());
   return (await router.do()).result;
 };
 

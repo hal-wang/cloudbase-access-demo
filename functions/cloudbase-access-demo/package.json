@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cloudbase/node-sdk": "^2.3.5",
-    "@hbrwang/cloudbase-access": "^0.5.19",
+    "@cloudbase/node-sdk": "^2.4.7",
+    "@hal-wang/cloudbase-access": "^0.7.2",
     "linq": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14"
   }
 }
